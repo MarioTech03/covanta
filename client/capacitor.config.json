@@ -1,0 +1,6 @@
+{
+  "appId": "com.covanta.app",
+  "appName": "CoVanta",
+  "webDir": "dist",
+  "server": { "androidScheme": "https" }
+}

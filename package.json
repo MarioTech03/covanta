@@ -1,0 +1,8 @@
+{
+  "name": "covanta-mvp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MVP de CoVanta: tiendas virtuales, catálogo, carrito y pedidos",
+  "scripts": {"install:all":"npm install && npm install --prefix server && npm install --prefix client", "dev":"concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"", "start":"npm start --prefix server"},
+  "devDependencies": {"concurrently":"^9.1.2"}
+}
